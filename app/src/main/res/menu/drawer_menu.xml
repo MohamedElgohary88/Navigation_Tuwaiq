@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/camera"
+    android:icon="@drawable/camera"
+    android:title="Camera" />
+
+    <item
+        android:id="@+id/image"
+        android:icon="@drawable/background"
+        android:title="Image" />
+
+    <item
+        android:id="@+id/subscriptions"
+        android:icon="@drawable/subscriptions"
+        android:title="Subscriptions" />
+
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+
+
+    <item
+    android:title="Communication">
+    <menu>
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/send"
+            android:title="Send" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+    </menu>
+
+</item>
+
+</menu>
+
